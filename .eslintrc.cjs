@@ -29,6 +29,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    'import/no-named-as-default': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
