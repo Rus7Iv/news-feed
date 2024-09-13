@@ -13,9 +13,9 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
-      node: {
+      alias: {
+        map: [['@', './src']],
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        moduleDirectory: ['src', 'node_modules'],
       },
     },
   },

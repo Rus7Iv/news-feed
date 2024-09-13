@@ -1,7 +1,8 @@
+import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
+
 import svgr from '@svgr/rollup'
 import react from '@vitejs/plugin-react'
-import { fileURLToPath } from 'url'
-import { dirname, resolve } from 'path'
 import { defineConfig } from 'vite'
 
 const __filename = fileURLToPath(import.meta.url)
