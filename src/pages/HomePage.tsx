@@ -1,4 +1,4 @@
-import { Home } from '../components/templates/Home/Home'
+import { Home } from '@/components/templates/Home/Home'
 
 const HomePage = () => {
   return <Home />

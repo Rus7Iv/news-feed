@@ -1,4 +1,4 @@
-import { ThemeToggle } from '../../molecules/ToggleTheme/ToggleTheme'
+import { ThemeToggle } from '@/components/molecules/ToggleTheme/ToggleTheme'
 
 export const Home = () => {
   return (

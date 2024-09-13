@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-import { ReactComponent as MoonIcon } from '../../../assets/icons/moon.svg'
-import { ReactComponent as SunIcon } from '../../../assets/icons/sun.svg'
-import { useThemeStore } from '../../../stores/useThemesStore'
-import { Toggle } from '../../atoms/Toggle/Toggle'
+import { ReactComponent as MoonIcon } from '@/assets/icons/moon.svg'
+import { ReactComponent as SunIcon } from '@/assets/icons/sun.svg'
+import { Toggle } from '@/components/atoms/Toggle/Toggle'
+import { useThemeStore } from '@/stores/useThemesStore'
 
 export const ThemeToggle = () => {
   const themeMode = useThemeStore((state) => state.theme)
